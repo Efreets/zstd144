@@ -1,0 +1,3 @@
+F:\cmake\cmake-3.17.0-win64-x64\bin\cmake.exe -E rm -f CMakeFiles\zstd.dir/objects.a
+F:\gcc730\x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0\mingw64\bin\ar.exe cr CMakeFiles\zstd.dir/objects.a @CMakeFiles\zstd.dir\objects1.rsp
+F:\gcc730\x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0\mingw64\bin\gcc.exe  -std=c99 -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\zstd.dir/objects.a -Wl,--no-whole-archive  -o zstd.exe -Wl,--out-implib,libzstd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\zstd.dir\linklibs.rsp
